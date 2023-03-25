@@ -1,5 +1,5 @@
 config:
-git config --global user.name "subediganesh-cmyk1"
+git config --global user.name "subediganesh11"
 git config --global user.mail "subediganesh306@gmail.com"
 
 To Add File To Staging Area:
