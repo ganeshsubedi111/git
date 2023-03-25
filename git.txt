@@ -1,0 +1,33 @@
+config:
+git config --global user.name "subediganesh-cmyk1"
+git config --global user.mail "subediganesh306@gmail.com"
+
+To Add File To Staging Area:
+ git add filename.txt
+git add filename.txt filename2 => 2 file
+git add .=> all file
+
+To commit the change:
+git commit -m "message"
+
+
+git log => view commit history
+git log --oneline =>view in oneline 
+
+git checkout  SHA-1
+git checkout master
+
+push our code to github
+git push origin master
+
+
+git is a verson control system
+git init =initialize an empty git repository in the current folder or directory
+git clone= copy a remote repository to your local machine
+git status = see your current status of the repository
+git add <files>= add the given files to yout staging area makre the files tractable by git
+git commit -m "message"= take a snapshot of current  state with a given message attached to snapshhot
+git log=list all snapshot taken till now see all the commits in history with additional info
+git push= push change from your local repository to your remote repository
+git pull=pull latest change in your remote repository to your local repository
+special file.gitignore=list all the file ignore by the git on thif file,git will never track those files
