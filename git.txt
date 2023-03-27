@@ -31,3 +31,4 @@ git log=list all snapshot taken till now see all the commits in history with add
 git push= push change from your local repository to your remote repository
 git pull=pull latest change in your remote repository to your local repository
 special file.gitignore=list all the file ignore by the git on thif file,git will never track those files
+ ctr+l to clear screen
