@@ -32,3 +32,14 @@ git push= push change from your local repository to your remote repository
 git pull=pull latest change in your remote repository to your local repository
 special file.gitignore=list all the file ignore by the git on thif file,git will never track those files
  ctr+l to clear screen
+ 
+ 
+ // creating a branch
+  git branch branch name
+  git branch // viewing  all branch
+  git checkout mero branch // switched to the mero branch ( mero branch here is a newly created branch you can add your own branch name)
+  git add  files or folder ( in files or folder you can replace with your folder or file name that you want to add)  for example git add Ganesh_Subedi
+  git status ( check status after insertion folder)
+  git commit -m "mero commit"
+  git push origin branch name ( in branch name you can add your newly created branch or already existing branch in which you wwant to push files or folder)
+  
