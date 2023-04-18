@@ -39,8 +39,9 @@ special file.gitignore=list all the file ignore by the git on thif file,git will
  // creating a branch
   git branch branch name
   git branch // viewing  all branch
-  git checkout mero branch // switched to the mero branch ( mero branch here is a newly created branch you can add your own branch name)
-  Enter the command git push origin <mero branch> to push the new branch to the remote repository.
+  git checkout <branch name> // switched to the newly created branch ( for example git checkout mero branch  mero branch here 
+                               is a newly created branch you can add  your own branch name)
+  Enter the command git push origin <branch name> to push the new branch to the remote repository.
   Enter the command git add . to stage the changes. 
      OR
   git add  files or folder ( in files or folder you can replace with your folder or file name that you want to add)  for example git add Ganesh_Subedi
