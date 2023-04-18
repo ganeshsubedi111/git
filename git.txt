@@ -34,12 +34,17 @@ special file.gitignore=list all the file ignore by the git on thif file,git will
  ctr+l to clear screen
  
  
+
+
  // creating a branch
   git branch branch name
   git branch // viewing  all branch
   git checkout mero branch // switched to the mero branch ( mero branch here is a newly created branch you can add your own branch name)
+  Enter the command git push origin <mero branch> to push the new branch to the remote repository.
+  Enter the command git add . to stage the changes. 
+     OR
   git add  files or folder ( in files or folder you can replace with your folder or file name that you want to add)  for example git add Ganesh_Subedi
   git status ( check status after insertion folder)
   git commit -m "mero commit"
   git push origin branch name ( in branch name you can add your newly created branch or already existing branch in which you wwant to push files or folder)
-  
+  Enter the command git merge main to merge any changes from the main branch into your branch.
