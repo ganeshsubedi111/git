@@ -1,6 +1,6 @@
 git status
 git init
-git config --global user.name"youe username"
+git config --global user.name"your username"
 git config --global user.email"youremail@gmail.com"
 git add index.html
 git status
